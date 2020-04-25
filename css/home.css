@@ -1,0 +1,64 @@
+.cover-page {
+    background: url('../assets/images/background4.webp');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 600px;
+}
+
+.jumbotron-content {
+    padding-top: 3%;
+}
+
+.jumbotron-title {
+    color: #33384e;
+    font-size: 60px !important;
+    font-weight: 700 !important;
+    text-align: left;
+}
+
+.jumbotron-body {
+    color: #33384e;
+    font-size: 30px !important;
+    font-weight: 550 !important;
+    font-family: 'Avenir LT Std 35 Light';
+}
+
+.col-title {
+    font-size: 50px !important;
+}
+
+.col-text {
+    font-size: 25px !important;
+}
+
+.img-shadow {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card-img-top {
+    margin-top: 10%;
+    width: 125px;
+    height: 125px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card-deck {
+    padding-top: 2%;
+}
+
+.card {
+    padding: 10%;
+    border: none;
+}
+
+.card-title {
+    font-size: 27px;
+}
+
+.badge {
+    font-size: 15px;
+}
