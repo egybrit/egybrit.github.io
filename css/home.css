@@ -9,21 +9,27 @@
 }
 
 .jumbotron-content {
-    padding-top: 3%;
+    padding-top: 8%;
+}
+
+@media screen and (max-device-width: 500px) {      
+    .jumbotron-content {
+        padding-top: 20%;
+    }
 }
 
 .jumbotron-title {
     color: #33384e;
     font-size: 55px !important;
-    font-weight: bolder !important;
+    font-weight: 800 !important;
+    font-family: 'Avenir LT Std 65 Medium';
     text-align: left;
 }
 
 .jumbotron-body {
     color: #33384e;
     font-size: 30px !important;
-    font-weight: 600 !important;
-    font-family: 'Avenir LT Std 35 Light';
+    font-family: 'Avenir LT Std 65 Medium';
 }
 
 .img-shadow {
