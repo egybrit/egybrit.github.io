@@ -1,5 +1,5 @@
 .cover-page {
-    background: url('../assets/images/background4.webp');
+    background: url('../assets/images/background7.webp');
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -19,7 +19,7 @@
 }
 
 .jumbotron-title {
-    color: #33384e;
+    color: #B22F37;
     font-size: 55px !important;
     font-weight: 800 !important;
     font-family: 'Avenir LT Std 65 Medium';
