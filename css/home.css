@@ -1,21 +1,21 @@
 .cover-page {
     background: url('../assets/images/background7.webp');
-    height: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 600px;
+    background-blend-mode: lighten;
+}
+
+.doctors-background {
+    background-color: whitesmoke;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     background-blend-mode: lighten;
 }
 
 .jumbotron-content {
-    padding-top: 8%;
-}
-
-@media screen and (max-device-width: 500px) {      
-    .jumbotron-content {
-        padding-top: 20%;
-    }
+    padding-top: 3%;
 }
 
 .jumbotron-title {
@@ -36,7 +36,7 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.card-img-top {
+.card-img-top-2 {
     margin-top: 10%;
     width: 125px;
     height: 125px;
@@ -50,8 +50,9 @@
 }
 
 .card {
-    padding: 10%;
     border: none;
+    padding-bottom: 0% !important;
+    margin-bottom: 0% !important;
 }
 
 .card-title {
@@ -60,4 +61,22 @@
 
 .badge {
     font-size: 15px;
+}
+
+.col {
+    padding-left: 0% !important;
+}
+
+.description-cards {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.doctor-image {
+    width: 180px;
+    height: 195px;
+    align-content: center;
+
+    margin: auto;
+    padding-top: 10px;
 }
