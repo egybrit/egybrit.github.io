@@ -6,14 +6,6 @@
     background-blend-mode: lighten;
 }
 
-.doctors-background {
-    background-color: whitesmoke;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-blend-mode: lighten;
-}
-
 .jumbotron-content {
     padding-top: 3%;
 }

@@ -3,15 +3,19 @@ strong {
     letter-spacing: 0.5px;
 }
 
+.fluid-container {
+    background-color: #FAFAFA !important;
+}
+
 .footerfooter {
     height: 60px;
-    width: 100%;
     line-height: 60px;
-    background-color: #f5f5f5;
+    background-color: rgb(218, 85, 96) !important;
 } 
 
-.footer-content {
-    text-align: center;
+.footerfooter-text {
+    color: white !important;
+    font-family: 'Avenir LT Std 85 Heavy';
 }
 
 .footer-image {
