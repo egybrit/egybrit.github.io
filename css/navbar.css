@@ -12,11 +12,13 @@
     #navbar {
         padding: 6px 10px !important; 
     }
+    
     #navbar a {
         float: none;
         display: block;
         text-align: left;
     }
+
     #navbar-right {
         float: none;
     }
