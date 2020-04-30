@@ -1,0 +1,10 @@
+.footerfooter {
+    height: 60px;
+    line-height: 60px;
+    background-color: #2F4785 !important;
+} 
+
+.footerfooter-text {
+    color: white !important;
+    font-family: 'Avenir LT Std 85 Heavy';
+}

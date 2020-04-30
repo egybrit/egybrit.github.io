@@ -7,17 +7,6 @@ strong {
     background-color: #FAFAFA !important;
 }
 
-.footerfooter {
-    height: 60px;
-    line-height: 60px;
-    background-color: rgb(218, 85, 96) !important;
-} 
-
-.footerfooter-text {
-    color: white !important;
-    font-family: 'Avenir LT Std 85 Heavy';
-}
-
 .footer-image {
     height: 75px;
     width: 160px;
