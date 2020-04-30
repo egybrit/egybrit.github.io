@@ -1,5 +1,5 @@
 .footerfooter {
-    height: 60px;
+    height: 100%;
     line-height: 60px;
     background-color: #2F4785 !important;
 } 
@@ -7,4 +7,9 @@
 .footerfooter-text {
     color: white !important;
     font-family: 'Avenir LT Std 85 Heavy';
+}
+
+.footer-image {
+    height: 75px;
+    width: 160px;
 }
