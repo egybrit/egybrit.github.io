@@ -24,7 +24,6 @@
     font-weight: 800 !important;
     font-family: 'Avenir LT Std 65 Medium';
     text-align: left;
-    padding-bottom: 2%;
 }
 
 .jumbotron-body {
@@ -53,6 +52,10 @@
     border: none;
 }
 
+.card-group {
+    padding-bottom: 0% !important;
+}
+
 .card-descriptions {
     color: white;
 }
@@ -61,8 +64,18 @@
     font-size: 27px;
 }
 
+.mb-5 {
+    margin-bottom: 1.5rem !important;
+    margin-top: 1.5rem !important;
+}
+
 .badge {
     font-size: 15px;
+}
+
+.doctor-card {
+    width: 250px;
+    padding-right: 30px !important;
 }
 
 .col {
@@ -92,13 +105,17 @@
 }
 
 .testimonial-card {
-
+    width: 100%;
+    height: 100%;
+    display: flex;
 }
 
 .carousel-control-prev-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%232F4785' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+    margin-bottom: 10%;
 }
 
 .carousel-control-next-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%232F4785' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+    margin-bottom: 10% !important;
 }
