@@ -74,8 +74,8 @@
 }
 
 .doctor-card {
-    width: 250px;
-    padding-right: 30px !important;
+    width: 200px;
+    padding-right: 10px !important;
 }
 
 .col {
@@ -88,8 +88,8 @@
 }
 
 .doctor-image {
-    width: 180px;
-    height: 195px;
+    width: 100%;
+    height: 100%;
     align-content: center;
 
     margin: auto;
