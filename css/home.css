@@ -119,3 +119,45 @@
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%232F4785' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
     margin-bottom: 10% !important;
 }
+
+.map-card {
+    height: 450px;
+    width: 200px;
+    background: rgba(104, 168, 221, 0.5);
+
+    float: left;
+    z-index: 9;
+    position: absolute;
+}    
+
+.map-jumbotron {
+    height: 450px;
+    width: 100%;
+}
+
+.map-title {
+    color: black;
+    opacity: 1 !important;
+}
+
+.rounded-circle {
+    margin-bottom: 2%;
+}
+
+.jumbotron {
+    margin-bottom: 0% !important;
+}
+
+.mapouter {
+    position: relative;
+    text-align: right;
+    height: 100%;
+    width: 100%;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 100%;
+    width: 100%;
+}
